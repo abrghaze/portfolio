@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Amine Abarghaz - Data Scientist & AI Engineer | Portfolio showcasing Machine Learning, Deep Learning, and Full-Stack Development projects">
+    <meta name="keywords" content="Data Science, AI, Machine Learning, Deep Learning, Python, TensorFlow, React, Portfolio">
+    <meta name="author" content="Amine Abarghaz">
+    <meta property="og:title" content="Amine Abarghaz | Data Scientist & AI Engineer">
+    <meta property="og:description" content="Engineering student specializing in AI, Data Science, and Business Intelligence">
+    <meta property="og:type" content="website">
+    <title>Amine Abarghaz | Data Scientist & AI Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cursor Effect -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-logo">AA</div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">Amine</span>
+                <span class="logo-dot">.</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+                <a href="#contact" class="nav-cta">Let's Talk</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul class="mobile-nav-menu">
+            <li><a href="#home" class="mobile-nav-link">Home</a></li>
+            <li><a href="#about" class="mobile-nav-link">About</a></li>
+            <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+            <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+            <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+            <li><a href="#certifications" class="mobile-nav-link">Certifications</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge" data-aos="fade-down">
+                    <span class="badge-dot"></span>
+                    <span>Available for opportunities</span>
+                </div>
+                <h1 class="hero-title" data-aos="fade-up">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">Amine Abarghaz</span>
+                    <span class="title-line">
+                        <span class="static-text">I build</span>
+                        <span class="typed-text"></span>
+                        <span class="typed-cursor">|</span>
+                    </span>
+                </h1>
+                <p class="hero-description" data-aos="fade-up" data-aos-delay="100">
+                    5th-year Engineering Student at ENSAO specializing in <strong>AI</strong>, 
+                    <strong>Data Science</strong>, and <strong>Business Intelligence</strong>. 
+                    Passionate about transforming data into actionable insights and building 
+                    intelligent systems that solve real-world problems.
+                </p>
+                <div class="hero-stats" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat">
+                        <span class="stat-number" data-count="6">0</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="9">0</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="2">0</span>
+                        <span class="stat-label">Internships</span>
+                    </div>
+                </div>
+                <div class="hero-cta" data-aos="fade-up" data-aos-delay="300">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                    </a>
+                </div>
+                <div class="hero-social" data-aos="fade-up" data-aos-delay="400">
+                    <a href="https://github.com/abrghaze" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/amine-abarghaz-670243256/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:amine.abaghraz23@ump.ac.ma" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left" data-aos-delay="200">
+                <div class="code-window">
+                    <div class="code-header">
+                        <div class="code-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span class="code-title">profile.py</span>
+                    </div>
+                    <pre class="code-content"><code><span class="keyword">class</span> <span class="class-name">DataScientist</span>:
+    <span class="keyword">def</span> <span class="function">__init__</span>(<span class="self">self</span>):
+        <span class="self">self</span>.name = <span class="string">"Amine Abarghaz"</span>
+        <span class="self">self</span>.role = <span class="string">"AI Engineer"</span>
+        <span class="self">self</span>.languages = [<span class="string">"Python"</span>, <span class="string">"SQL"</span>, <span class="string">"JavaScript"</span>]
+        
+    <span class="keyword">def</span> <span class="function">skills</span>(<span class="self">self</span>):
+        <span class="keyword">return</span> {
+            <span class="string">"ML"</span>: [<span class="string">"TensorFlow"</span>, <span class="string">"Scikit-learn"</span>],
+            <span class="string">"BI"</span>: [<span class="string">"Power BI"</span>, <span class="string">"Talend"</span>],
+            <span class="string">"Web"</span>: [<span class="string">"React"</span>, <span class="string">"Laravel"</span>]
+        }
+
+<span class="comment"># Ready to make an impact! 🚀</span></code></pre>
+                </div>
+                <div class="floating-elements">
+                    <div class="float-card card-1">
+                        <i class="fas fa-brain"></i>
+                        <span>Deep Learning</span>
+                    </div>
+                    <div class="float-card card-2">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Analytics</span>
+                    </div>
+                    <div class="float-card card-3">
+                        <i class="fas fa-database"></i>
+                        <span>Big Data</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Passionate about turning data into impact</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="image-wrapper">
+                        <div class="image-placeholder">
+                            <span class="initials">AA</span>
+                        </div>
+                        <div class="image-border"></div>
+                        <div class="experience-badge">
+                            <span class="exp-number">4+</span>
+                            <span class="exp-text">Years Learning</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <p class="about-intro">
+                        I'm a 5th-year engineering student at <strong>ENSAO</strong> (École Nationale des Sciences Appliquées d'Oujda), 
+                        pursuing a degree in <strong>Management and Governance of Information Systems</strong>.
+                    </p>
+                    <p>
+                        My journey combines a strategic vision of information systems with a deep passion for 
+                        <strong>Artificial Intelligence</strong> and <strong>Data Science</strong>. I specialize in developing 
+                        intelligent solutions that bridge the gap between complex data and actionable business insights.
+                    </p>
+                    <p>
+                        From building predictive models with deep learning to designing interactive BI dashboards, 
+                        I thrive on solving complex problems and continuously learning new technologies. My goal is to 
+                        add real value through rigor, innovation, and a commitment to excellence.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Al Quds, Oujda, Morocco</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>amine.abaghraz23@ump.ac.ma</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+212 675 486802</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-language"></i>
+                            <span>Arabic (Native), French (Advanced), English (Professional)</span>
+                        </div>
+                    </div>
+                    <div class="cv-download">
+                        <button class="btn btn-primary cv-toggle" onclick="toggleCVMenu()">
+                            <span data-i18n="about_download_cv">Download CV</span>
+                            <i class="fas fa-download"></i>
+                        </button>
+                        <div class="cv-dropdown" id="cvDropdown">
+                            <a href="cv/amine_abarghaz_cv_fr.pdf" download class="cv-option">
+                                <span class="flag">🇫🇷</span>
+                                <span>Français</span>
+                            </a>
+                            <a href="cv/amine_abarghaz_cv_en.pdf" download class="cv-option">
+                                <span class="flag">🇬🇧</span>
+                                <span>English</span>
+                            </a>
+                            <a href="cv/amine_abarghaz_cv_es.pdf" download class="cv-option">
+                                <span class="flag">🇪🇸</span>
+                                <span>Español</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Skills & Expertise</span>
+                <h2 class="section-title">Technologies I work with</h2>
+            </div>
+            <div class="skills-grid">
+                <!-- Data Science & AI -->
+                <div class="skill-category" data-aos="fade-up">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Data Science & AI</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow">
+                            <span>TensorFlow</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas">
+                            <span>Pandas</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn">
+                            <span>Scikit-learn</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV">
+                            <span>OpenCV</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter">
+                            <span>Jupyter</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BI & Big Data -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <h3>BI & Big Data</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fas fa-chart-bar" style="font-size: 2rem; color: #F2C811;"></i>
+                            <span>Power BI</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-exchange-alt" style="font-size: 2rem; color: #FF6D00;"></i>
+                            <span>Talend</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL">
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-wind" style="font-size: 2rem; color: #017CEE;"></i>
+                            <span>Airflow</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database" style="font-size: 2rem; color: #336791;"></i>
+                            <span>Data Warehouse</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                            <span>React.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" alt="Laravel">
+                            <span>Laravel</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind">
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ERP & CRM -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3 data-i18n="skills_erp">ERP & CRM</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fas fa-cubes" style="font-size: 2rem; color: #714B67;"></i>
+                            <span>Odoo</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-salesforce" style="font-size: 2rem; color: #00A1E0;"></i>
+                            <span>Salesforce</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI">
+                            <span>FastAPI</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-robot" style="font-size: 2rem; color: #431D7C;"></i>
+                            <span>ZenML</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Experience</span>
+                <h2 class="section-title">Professional Journey</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar"></i>
+                                July 2025 - September 2025
+                            </span>
+                            <span class="timeline-badge">Current</span>
+                        </div>
+                        <h3 class="timeline-title">Data Engineer & Data Scientist Intern</h3>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            TE Connectivity
+                        </h4>
+                        <p class="timeline-project">PFA: Development of an Intelligent Competency Analysis System</p>
+                        <ul class="timeline-tasks">
+                            <li>
+                                <i class="fas fa-check"></i>
+                                Implemented automated ETL pipelines for HR data collection and cleaning using Python, Pandas, and Airflow
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                Designed and built a Data Warehouse with PostgreSQL for centralized data storage
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                Developed profile recommendation algorithms using Scikit-learn for intelligent competency matching
+                            </li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Airflow</span>
+                            <span>PostgreSQL</span>
+                            <span>Scikit-learn</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-marker">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar"></i>
+                                July 2024 - August 2024
+                            </span>
+                        </div>
+                        <h3 class="timeline-title">Data Analyst & BI Intern</h3>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            Agence de Développement du Nord
+                        </h4>
+                        <p class="timeline-project">Design of institutional project monitoring dashboards</p>
+                        <ul class="timeline-tasks">
+                            <li>
+                                <i class="fas fa-check"></i>
+                                Led data migration and structured the data warehouse using Talend and Python
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                Developed interactive KPI dashboards and decision-support reports with Power BI and DAX
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                Optimized SQL queries to significantly improve dashboard display performance
+                            </li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Power BI</span>
+                            <span>DAX</span>
+                            <span>Talend</span>
+                            <span>Python</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item education" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-marker">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar"></i>
+                                2021 - Present
+                            </span>
+                        </div>
+                        <h3 class="timeline-title">Engineering Degree</h3>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-university"></i>
+                            ENSAO - École Nationale des Sciences Appliquées d'Oujda
+                        </h4>
+                        <p class="timeline-project">Management and Governance of Information Systems</p>
+                        <p class="timeline-description">
+                            Integrated preparatory cycle followed by the engineering cycle. Specialization in 
+                            Information Systems Management with focus on AI, Data Science, and ERP/CRM systems.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item education" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-marker">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar"></i>
+                                2021
+                            </span>
+                        </div>
+                        <h3 class="timeline-title">Baccalauréat in Physical Sciences</h3>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-school"></i>
+                            Lycée Ali Ben Berry - Taza
+                        </h4>
+                        <p class="timeline-project">Mention: Très Bien (Highest Honors)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">A collection of my work spanning AI, Machine Learning, and Full-Stack Development</p>
+            </div>
+            <div class="projects-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+                <button class="filter-btn" data-filter="web">Full-Stack</button>
+                <button class="filter-btn" data-filter="data">Data Science</button>
+                <button class="filter-btn" data-filter="crm">CRM/ERP</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: Smart Supply Chain -->
+                <div class="project-card" data-category="ai data" data-aos="fade-up">
+                    <div class="project-image">
+                        <div class="project-placeholder gradient-1">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/abrghaze/Smart-Supply-Chain" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag tag-ai">Deep Learning</span>
+                            <span class="tag tag-data">ERP</span>
+                        </div>
+                        <h3 class="project-title">Smart Supply Chain</h3>
+                        <p class="project-description">
+                            AI-Powered Sales Forecasting & Stock Optimization for Odoo. Complete solution with LSTM & Prophet 
+                            models achieving 87% accuracy on 90-day predictions, with an interactive Plotly Dash dashboard 
+                            and REST API handling 50k+ transactions.
+                        </p>
+                        <div class="project-features">
+                            <span><i class="fas fa-plug"></i> Odoo Integration</span>
+                            <span><i class="fas fa-robot"></i> LSTM + Prophet</span>
+                            <span><i class="fas fa-tachometer-alt"></i> Real-time Dashboard</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Prophet</span>
+                            <span>FastAPI</span>
+                            <span>Plotly Dash</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project: Gestion de Congé (Salesforce CRM) -->
+                <div class="project-card" data-category="crm" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-placeholder gradient-7">
+                            <i class="fab fa-salesforce"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://www.salesforce.com/trailblazer/j0zdjexqa6zgs92i72" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag tag-crm">Salesforce</span>
+                            <span class="tag tag-crm">CRM</span>
+                        </div>
+                        <h3 class="project-title">Gestion de Congé</h3>
+                        <p class="project-description">
+                            A comprehensive Leave Management Application built on Salesforce CRM platform. 
+                            Streamlines employee leave requests, approvals, and tracking with automated workflows, 
+                            custom objects, and intuitive dashboards for HR management.
+                        </p>
+                        <div class="project-features">
+                            <span><i class="fas fa-calendar-check"></i> Leave Tracking</span>
+                            <span><i class="fas fa-user-check"></i> Approval Workflow</span>
+                            <span><i class="fas fa-chart-bar"></i> HR Dashboard</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>Salesforce</span>
+                            <span>Apex</span>
+                            <span>Lightning</span>
+                            <span>Flow Builder</span>
+                            <span>SOQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Car Damage Detection -->
+                <div class="project-card" data-category="ai" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-placeholder gradient-2">
+                            <i class="fas fa-car-crash"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/abrghaze/car-damage-detection" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag tag-ai">Computer Vision</span>
+                            <span class="tag tag-ai">Deep Learning</span>
+                        </div>
+                        <h3 class="project-title">Car Damage Detection AI</h3>
+                        <p class="project-description">
+                            End-to-end deep learning solution for automated vehicle damage assessment using YOLOv8 
+                            instance segmentation. Achieves 72% mAP50 with multi-class classification for dents, 
+                            scratches, cracks, and broken glass.
+                        </p>
+                        <div class="project-features">
+                            <span><i class="fas fa-eye"></i> Instance Segmentation</span>
+                            <span><i class="fas fa-layer-group"></i> 6 Damage Classes</span>
+                            <span><i class="fas fa-bolt"></i> 30ms Inference</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>YOLOv8</span>
+                            <span>PyTorch</span>
+                            <span>OpenCV</span>
+                            <span>FastAPI</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Smart Skill Matrix -->
+                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-placeholder gradient-3">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/abrghaze/smart-SM" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag tag-web">Full-Stack</span>
+                            <span class="tag tag-web">Enterprise</span>
+                        </div>
+                        <h3 class="project-title">Smart Skill Matrix</h3>
+                        <p class="project-description">
+                            Comprehensive skill management and objective tracking system with multi-role authentication, 
+                            real-time notifications, email microservice, and interactive analytics dashboard for 
+                            organizational performance monitoring.
+                        </p>
+                        <div class="project-features">
+                            <span><i class="fas fa-user-shield"></i> Multi-Role Auth</span>
+                            <span><i class="fas fa-bell"></i> Real-time Notifications</span>
+                            <span><i class="fas fa-envelope"></i> Email Service</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>PostgreSQL</span>
+                            <span>Tailwind</span>
+                            <span>JWT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Noqta School Management -->
+                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-placeholder gradient-4">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/abrghaze/Noqta" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag tag-web">Laravel</span>
+                            <span class="tag tag-web">Full-Stack</span>
+                        </div>
+                        <h3 class="project-title">Noqta - School Management</h3>
+                        <p class="project-description">
+                            Complete school management system with 4 user roles (Director, Teacher, Student, Parent), 
+                            grade management, attendance tracking, and real-time notification system for academic 
+                            performance monitoring.
+                        </p>
+                        <div class="project-features">
+                            <span><i class="fas fa-users"></i> 4 User Roles</span>
+                            <span><i class="fas fa-chart-line"></i> Grade Tracking</span>
+                            <span><i class="fas fa-bell"></i> Notifications</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>Laravel 12</span>
+                            <span>PostgreSQL</span>
+                            <span>Tailwind</span>
+                            <span>Alpine.js</span>
+                            <span>Blade</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: House Price Predictor -->
+                <div class="project-card" data-category="ai data" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <div class="project-placeholder gradient-5">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/abrghaze/house_prices_predictor" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag tag-ai">MLOps</span>
+                            <span class="tag tag-data">Machine Learning</span>
+                        </div>
+                        <h3 class="project-title">House Price Predictor</h3>
+                        <p class="project-description">
+                            End-to-end Machine Learning pipeline with ZenML for price prediction. Features automated 
+                            data preparation, model training, experiment tracking with MLflow, and API deployment 
+                            for direct utilization.
+                        </p>
+                        <div class="project-features">
+                            <span><i class="fas fa-cogs"></i> MLOps Pipeline</span>
+                            <span><i class="fas fa-flask"></i> MLflow Tracking</span>
+                            <span><i class="fas fa-rocket"></i> API Deployment</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>ZenML</span>
+                            <span>MLflow</span>
+                            <span>Scikit-learn</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Movie Recommendation -->
+                <div class="project-card" data-category="ai data" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <div class="project-placeholder gradient-6">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/abrghaze/movie_recommendation_system" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag tag-ai">Machine Learning</span>
+                            <span class="tag tag-data">Recommender System</span>
+                        </div>
+                        <h3 class="project-title">Movie Recommendation Engine</h3>
+                        <p class="project-description">
+                            Collaborative filtering recommendation system using SVD algorithm on the MovieLens 1M dataset. 
+                            Features hyperparameter optimization with the Surprise library and comparative model evaluation.
+                        </p>
+                        <div class="project-features">
+                            <span><i class="fas fa-magic"></i> SVD Algorithm</span>
+                            <span><i class="fas fa-sliders-h"></i> Hyperparameter Tuning</span>
+                            <span><i class="fas fa-stream"></i> Streamlit UI</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Surprise</span>
+                            <span>Streamlit</span>
+                            <span>Scikit-learn</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-cta" data-aos="fade-up">
+                <a href="https://github.com/abrghaze" target="_blank" class="btn btn-secondary">
+                    <i class="fab fa-github"></i>
+                    <span>View All on GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Credentials</span>
+                <h2 class="section-title">Certifications & Achievements</h2>
+            </div>
+            <div class="certifications-grid">
+                <a href="https://www.coursera.org/account/accomplishments/specialization/1PYMOR73Y5DI" target="_blank" class="cert-card" data-aos="fade-up">
+                    <div class="cert-logo google">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Google Advanced Data Analytics</h3>
+                        <p>Professional Certificate</p>
+                    </div>
+                    <div class="cert-link-icon"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+                <a href="https://www.coursera.org/account/accomplishments/specialization/06N8DL61KQ0R" target="_blank" class="cert-card" data-aos="fade-up" data-aos-delay="50">
+                    <div class="cert-logo google">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Google Business Intelligence</h3>
+                        <p>Professional Certificate</p>
+                    </div>
+                    <div class="cert-link-icon"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+                <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=43D88AC432E72C91C1E42A343AB68198551BEC60AA85C4DAAC97A88EE7ACB98E" target="_blank" class="cert-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="cert-logo oracle">
+                        <span>O</span>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Oracle Data Science Professional</h3>
+                        <p>OCI 2025 Certified</p>
+                    </div>
+                    <div class="cert-link-icon"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+                <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=74216642D4F0E255CE1F8CC50758461A73760751FB3CDB46701CDBA3AAFFA207" target="_blank" class="cert-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="cert-logo oracle">
+                        <span>O</span>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Oracle AI Vector Search</h3>
+                        <p>Certified Professional</p>
+                    </div>
+                    <div class="cert-link-icon"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+                <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=4A6BF7FCCB4D2A9C3913F2A4180DCD7F23CDF5E13E7D49B9A9EDA3BFFB81729A" target="_blank" class="cert-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="cert-logo oracle">
+                        <span>O</span>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Oracle Generative AI</h3>
+                        <p>OCI 2025 Certified</p>
+                    </div>
+                    <div class="cert-link-icon"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+                <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=B7AEA2BC97CA128D3C6896674CD42984612FA84A0653E87D237BEE8334B1A3BB" target="_blank" class="cert-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="cert-logo oracle">
+                        <span>O</span>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Oracle Analytics Cloud</h3>
+                        <p>2025 Certified Professional</p>
+                    </div>
+                    <div class="cert-link-icon"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+                <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=E573188067EDCC83E15BFA824F4B829B0E18C04FB5DD8B21B31B7119C2D5E2BF" target="_blank" class="cert-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="cert-logo oracle">
+                        <span>O</span>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Oracle Cloud Infrastructure DevOps</h3>
+                        <p>OCI 2025 Certified</p>
+                    </div>
+                    <div class="cert-link-icon"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+                <a href="https://www.coursera.org/account/accomplishments/specialization/GPO5ZPKPLAK5" target="_blank" class="cert-card" data-aos="fade-up" data-aos-delay="350">
+                    <div class="cert-logo salesforce">
+                        <i class="fab fa-salesforce"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Salesforce Sales Operations</h3>
+                        <p>Professional Certificate</p>
+                    </div>
+                    <div class="cert-link-icon"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+                <a href="https://www.coursera.org/account/accomplishments/records/2GLAFRD6KQ96" target="_blank" class="cert-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="cert-logo web">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Full-Stack Web Development</h3>
+                        <p>Laravel & PHP Certificate</p>
+                    </div>
+                    <div class="cert-link-icon"><i class="fas fa-external-link-alt"></i></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-description">
+                    I'm currently looking for new opportunities. Whether you have a question or just want to say hi, 
+                    I'll try my best to get back to you!
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-details">
+                            <h3>Email</h3>
+                            <a href="mailto:amine.abaghraz23@ump.ac.ma">amine.abaghraz23@ump.ac.ma</a>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-details">
+                            <h3>Phone</h3>
+                            <a href="tel:+212675486802">+212 675 486802</a>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-details">
+                            <h3>Location</h3>
+                            <span>Al Quds, Oujda, Morocco</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/abrghaze" target="_blank" class="social-btn" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/amine-abarghaz-670243256/" target="_blank" class="social-btn" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:amine.abaghraz23@ump.ac.ma" class="social-btn" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" data-aos="fade-left" action="https://formspree.io/f/mjgvqnea" method="POST">
+                    <input type="hidden" name="_next" value="https://abrghaze.github.io/portfolio/thanks.html">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="How can I help you?">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">
+                        <span class="logo-text">Amine</span>
+                        <span class="logo-dot">.</span>
+                    </a>
+                    <p>Data Scientist & AI Engineer passionate about building intelligent solutions.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="https://github.com/abrghaze" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/amine-abarghaz-670243256/" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:amine.abaghraz23@ump.ac.ma" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Amine Abarghaz. All rights reserved.</p>
+                <p>Built with <i class="fas fa-heart"></i> and lots of <i class="fas fa-coffee"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button class="lang-btn active" data-lang="en" title="English">
+            <span class="lang-flag">🇬🇧</span>
+            <span class="lang-code">EN</span>
+        </button>
+        <button class="lang-btn" data-lang="fr" title="Français">
+            <span class="lang-flag">🇫🇷</span>
+            <span class="lang-code">FR</span>
+        </button>
+        <button class="lang-btn" data-lang="es" title="Español">
+            <span class="lang-flag">🇪🇸</span>
+            <span class="lang-code">ES</span>
+        </button>
+    </div>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
