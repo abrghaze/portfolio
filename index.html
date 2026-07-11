@@ -1,15 +1,16 @@
-<!DOCTYPE html>
+pe<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Amine Abarghaz - Data Scientist & AI Engineer | Portfolio showcasing Machine Learning, Deep Learning, and Full-Stack Development projects">
-    <meta name="keywords" content="Data Science, AI, Machine Learning, Deep Learning, Python, TensorFlow, React, Portfolio">
+    <meta name="description" content="Amine Abarghaz - AI Engineer & Information Systems Governance | Portfolio showcasing multi-agent automation, RAG, data science, BI, and full-stack projects">
+    <meta name="keywords" content="AI Engineer, Multi-Agent Systems, RAG, Data Science, Business Intelligence, Python, LangGraph, FastAPI, React, Portfolio">
     <meta name="author" content="Amine Abarghaz">
-    <meta property="og:title" content="Amine Abarghaz | Data Scientist & AI Engineer">
-    <meta property="og:description" content="Engineering student specializing in AI, Data Science, and Business Intelligence">
+    <meta property="og:title" content="Amine Abarghaz | AI Engineer & Information Systems Governance">
+    <meta property="og:description" content="AI Engineer trained at ENSAO, focused on multi-agent automation, RAG, data science, BI, and information systems governance">
     <meta property="og:type" content="website">
-    <title>Amine Abarghaz | Data Scientist & AI Engineer</title>
+    <title>Amine Abarghaz | AI Engineer & Information Systems Governance</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -24,7 +25,10 @@
     <!-- Loading Screen -->
     <div class="loader">
         <div class="loader-content">
-            <div class="loader-logo">AA</div>
+            <div class="loader-logo loader-avatar profile-media" data-profile-container>
+                <img src="profile_picture.jpg" alt="" class="profile-image" data-profile-image>
+                <span class="profile-fallback" data-profile-fallback>AA</span>
+            </div>
             <div class="loader-bar">
                 <div class="loader-progress"></div>
             </div>
@@ -34,9 +38,15 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="#home" class="nav-logo">
-                <span class="logo-text">Amine</span>
-                <span class="logo-dot">.</span>
+            <a href="#home" class="nav-logo" aria-label="Amine Abarghaz home">
+                <span class="logo-mark profile-media" data-profile-container>
+                    <img src="profile_picture.jpg" alt="" class="profile-image" data-profile-image>
+                    <span class="profile-fallback" data-profile-fallback>AA</span>
+                </span>
+                <span class="logo-word">
+                    <span class="logo-text">Amine</span>
+                    <span class="logo-dot">.</span>
+                </span>
             </a>
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link active">Home</a></li>
@@ -99,10 +109,10 @@
                     </span>
                 </h1>
                 <p class="hero-description" data-aos="fade-up" data-aos-delay="100">
-                    5th-year Engineering Student at ENSAO specializing in <strong>AI</strong>, 
-                    <strong>Data Science</strong>, and <strong>Business Intelligence</strong>. 
-                    Passionate about transforming data into actionable insights and building 
-                    intelligent systems that solve real-world problems.
+                    AI Engineer trained at <strong>ENSAO</strong>, specializing in <strong>AI</strong>,
+                    <strong>Information Systems Governance</strong>, and <strong>Business Intelligence</strong>.
+                    I build multi-agent automation, RAG workflows, and data-driven systems that turn complex
+                    business processes into reliable digital solutions.
                 </p>
                 <div class="hero-stats" data-aos="fade-up" data-aos-delay="200">
                     <div class="stat">
@@ -114,8 +124,8 @@
                         <span class="stat-label">Certifications</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number" data-count="2">0</span>
-                        <span class="stat-label">Internships</span>
+                        <span class="stat-number" data-count="1" data-suffix="+">0</span>
+                        <span class="stat-label">Years of Experience</span>
                     </div>
                 </div>
                 <div class="hero-cta" data-aos="fade-up" data-aos-delay="300">
@@ -134,7 +144,7 @@
                     <a href="https://www.linkedin.com/in/amine-abarghaz-670243256/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
-                    <a href="mailto:amine.abaghraz23@ump.ac.ma" class="social-link" aria-label="Email">
+                    <a href="mailto:amine1abrghaze@gmail.com" class="social-link" aria-label="Email">
                         <i class="fas fa-envelope"></i>
                     </a>
                 </div>
@@ -149,20 +159,15 @@
                         </div>
                         <span class="code-title">profile.py</span>
                     </div>
-                    <pre class="code-content"><code><span class="keyword">class</span> <span class="class-name">DataScientist</span>:
+                    <pre class="code-content"><code><span class="keyword">class</span> <span class="class-name">AIEngineer</span>:
     <span class="keyword">def</span> <span class="function">__init__</span>(<span class="self">self</span>):
         <span class="self">self</span>.name = <span class="string">"Amine Abarghaz"</span>
         <span class="self">self</span>.role = <span class="string">"AI Engineer"</span>
-        <span class="self">self</span>.languages = [<span class="string">"Python"</span>, <span class="string">"SQL"</span>, <span class="string">"JavaScript"</span>]
+        <span class="self">self</span>.focus = [<span class="string">"Multi-Agent Systems"</span>, <span class="string">"RAG"</span>, <span class="string">"BI"</span>]
+        <span class="self">self</span>.stack = [<span class="string">"Python"</span>, <span class="string">"LangGraph"</span>, <span class="string">"FastAPI"</span>, <span class="string">"React"</span>]
         
-    <span class="keyword">def</span> <span class="function">skills</span>(<span class="self">self</span>):
-        <span class="keyword">return</span> {
-            <span class="string">"ML"</span>: [<span class="string">"TensorFlow"</span>, <span class="string">"Scikit-learn"</span>],
-            <span class="string">"BI"</span>: [<span class="string">"Power BI"</span>, <span class="string">"Talend"</span>],
-            <span class="string">"Web"</span>: [<span class="string">"React"</span>, <span class="string">"Laravel"</span>]
-        }
-
-<span class="comment"># Ready to make an impact! 🚀</span></code></pre>
+    <span class="keyword">def</span> <span class="function">deliver</span>(<span class="self">self</span>):
+        <span class="keyword">return</span> <span class="string">"Reliable AI automation for real business workflows"</span></code></pre>
                 </div>
                 <div class="floating-elements">
                     <div class="float-card card-1">
@@ -196,39 +201,41 @@
             <div class="about-content">
                 <div class="about-image" data-aos="fade-right">
                     <div class="image-wrapper">
-                        <div class="image-placeholder">
-                            <span class="initials">AA</span>
+                        <div class="image-placeholder profile-media" data-profile-container>
+                            <img src="profile_picture.jpg" alt="Portrait of Amine Abarghaz" class="profile-image" data-profile-image width="400" height="400">
+                            <span class="profile-fallback" data-profile-fallback>AA</span>
                         </div>
                         <div class="image-border"></div>
                         <div class="experience-badge">
-                            <span class="exp-number">4+</span>
-                            <span class="exp-text">Years Learning</span>
+                            <span class="exp-number">5+</span>
+                            <span class="exp-text">Years of Study</span>
                         </div>
                     </div>
                 </div>
                 <div class="about-text" data-aos="fade-left">
                     <p class="about-intro">
-                        I'm a 5th-year engineering student at <strong>ENSAO</strong> (École Nationale des Sciences Appliquées d'Oujda), 
-                        pursuing a degree in <strong>Management and Governance of Information Systems</strong>.
+                        I'm an <strong>AI Engineer</strong> with a <strong>Bac+5 State Engineering Degree</strong> from
+                        <strong>ENSAO</strong> (École Nationale des Sciences Appliquées d'Oujda),
+                        with a specialization in <strong>AI and Governance of Information Systems</strong>.
                     </p>
                     <p>
-                        My journey combines a strategic vision of information systems with a deep passion for 
-                        <strong>Artificial Intelligence</strong> and <strong>Data Science</strong>. I specialize in developing 
-                        intelligent solutions that bridge the gap between complex data and actionable business insights.
+                        My work combines a governance-minded view of information systems with hands-on experience in
+                        <strong>multi-agent automation</strong>, <strong>RAG</strong>, <strong>Data Science</strong>, and <strong>Business Intelligence</strong>.
+                        I focus on transforming complex business needs into useful, maintainable digital solutions.
                     </p>
                     <p>
-                        From building predictive models with deep learning to designing interactive BI dashboards, 
-                        I thrive on solving complex problems and continuously learning new technologies. My goal is to 
-                        add real value through rigor, innovation, and a commitment to excellence.
+                        From automating client integration deliverables to building predictive models and BI dashboards,
+                        I like projects where technical rigor meets operational value. My goal is to deliver reliable systems
+                        that are clear for teams, useful for clients, and ready to evolve.
                     </p>
                     <div class="about-info">
                         <div class="info-item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Al Quds, Oujda, Morocco</span>
+                            <span>Casablanca, Morocco</span>
                         </div>
                         <div class="info-item">
                             <i class="fas fa-envelope"></i>
-                            <span>amine.abaghraz23@ump.ac.ma</span>
+                            <span>amine1abrghaze@gmail.com</span>
                         </div>
                         <div class="info-item">
                             <i class="fas fa-phone"></i>
@@ -427,6 +434,36 @@
                 <h2 class="section-title">Professional Journey</h2>
             </div>
             <div class="timeline">
+                <div class="timeline-item featured" data-aos="fade-up">
+                    <div class="timeline-marker">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar"></i>
+                                February 2026 - August 2026
+                            </span>
+                            <span class="timeline-badge">Current</span>
+                        </div>
+                        <h3 class="timeline-title">AI Engineer (Final-Year Internship)</h3>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            Tessi Oujda
+                        </h4>
+                        <p class="timeline-project">Multi-agent orchestrator for client integration automation</p>
+                        <ul class="timeline-tasks">
+                            <li><i class="fas fa-check"></i>Designed a LangGraph-based multi-agent orchestrator to automate repetitive client integration tasks for Digital Invoice workflows</li>
+                            <li><i class="fas fa-check"></i>Built a RAG and document chunking approach to analyze DSF documents and provide agents with the right functional context</li>
+                            <li><i class="fas fa-check"></i>Automated professional deliverables: test workbooks, Excel transfer matrices, and XML/JRXML coherence reports</li>
+                            <li><i class="fas fa-check"></i>Developed Recette, Transfer, and JasperReports modules with Python, FastAPI, React, TypeScript, and Ollama</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Python</span><span>LangGraph</span><span>RAG</span><span>FastAPI</span><span>React</span><span>TypeScript</span><span>Ollama</span>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="timeline-item" data-aos="fade-up">
                     <div class="timeline-marker">
                         <i class="fas fa-briefcase"></i>
@@ -437,9 +474,8 @@
                                 <i class="fas fa-calendar"></i>
                                 July 2025 - September 2025
                             </span>
-                            <span class="timeline-badge">Current</span>
                         </div>
-                        <h3 class="timeline-title">Data Engineer & Data Scientist Intern</h3>
+                        <h3 class="timeline-title">Data Engineer & Data Scientist</h3>
                         <h4 class="timeline-company">
                             <i class="fas fa-building"></i>
                             TE Connectivity
@@ -480,7 +516,7 @@
                                 July 2024 - August 2024
                             </span>
                         </div>
-                        <h3 class="timeline-title">Data Analyst & BI Intern</h3>
+                        <h3 class="timeline-title">Data Analyst & BI</h3>
                         <h4 class="timeline-company">
                             <i class="fas fa-building"></i>
                             Agence de Développement du Nord
@@ -518,7 +554,7 @@
                         <div class="timeline-header">
                             <span class="timeline-date">
                                 <i class="fas fa-calendar"></i>
-                                2021 - Present
+                                2021 - 2026
                             </span>
                         </div>
                         <h3 class="timeline-title">Engineering Degree</h3>
@@ -526,10 +562,10 @@
                             <i class="fas fa-university"></i>
                             ENSAO - École Nationale des Sciences Appliquées d'Oujda
                         </h4>
-                        <p class="timeline-project">Management and Governance of Information Systems</p>
+                        <p class="timeline-project">AI and Governance of Information Systems</p>
                         <p class="timeline-description">
                             Integrated preparatory cycle followed by the engineering cycle. Specialization in 
-                            Information Systems Management with focus on AI, Data Science, and ERP/CRM systems.
+                            AI and Information Systems Governance with focus on intelligent automation, Data Science, BI, and ERP/CRM systems.
                         </p>
                     </div>
                 </div>
@@ -980,7 +1016,7 @@
                         </div>
                         <div class="info-details">
                             <h3>Email</h3>
-                            <a href="mailto:amine.abaghraz23@ump.ac.ma">amine.abaghraz23@ump.ac.ma</a>
+                            <a href="mailto:amine1abrghaze@gmail.com">amine1abrghaze@gmail.com</a>
                         </div>
                     </div>
                     <div class="info-card">
@@ -998,7 +1034,7 @@
                         </div>
                         <div class="info-details">
                             <h3>Location</h3>
-                            <span>Al Quds, Oujda, Morocco</span>
+                            <span>Casablanca, Morocco</span>
                         </div>
                     </div>
                     <div class="social-links">
@@ -1008,7 +1044,7 @@
                         <a href="https://www.linkedin.com/in/amine-abarghaz-670243256/" target="_blank" class="social-btn" aria-label="LinkedIn">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="mailto:amine.abaghraz23@ump.ac.ma" class="social-btn" aria-label="Email">
+                        <a href="mailto:amine1abrghaze@gmail.com" class="social-btn" aria-label="Email">
                             <i class="fas fa-envelope"></i>
                         </a>
                     </div>
@@ -1045,11 +1081,17 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <a href="#home" class="footer-logo">
-                        <span class="logo-text">Amine</span>
-                        <span class="logo-dot">.</span>
+                    <a href="#home" class="footer-logo" aria-label="Amine Abarghaz home">
+                        <span class="logo-mark profile-media" data-profile-container>
+                    <img src="profile_picture.jpg" alt="" class="profile-image" data-profile-image>
+                    <span class="profile-fallback" data-profile-fallback>AA</span>
+                </span>
+                        <span class="logo-word">
+                            <span class="logo-text">Amine</span>
+                            <span class="logo-dot">.</span>
+                        </span>
                     </a>
-                    <p>Data Scientist & AI Engineer passionate about building intelligent solutions.</p>
+                    <p>AI Engineer focused on multi-agent automation, RAG, data science, and information systems governance.</p>
                 </div>
                 <div class="footer-links">
                     <h4>Quick Links</h4>
@@ -1069,14 +1111,14 @@
                         <a href="https://www.linkedin.com/in/amine-abarghaz-670243256/" target="_blank" aria-label="LinkedIn">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="mailto:amine.abaghraz23@ump.ac.ma" aria-label="Email">
+                        <a href="mailto:amine1abrghaze@gmail.com" aria-label="Email">
                             <i class="fas fa-envelope"></i>
                         </a>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Amine Abarghaz. All rights reserved.</p>
+                <p>&copy; <span data-current-year></span> Amine Abarghaz. All rights reserved.</p>
                 <p>Built with <i class="fas fa-heart"></i> and lots of <i class="fas fa-coffee"></i></p>
             </div>
         </div>

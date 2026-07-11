@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
     initNavigation();
     initMobileMenu();
     initThemeToggle();
+    initCurrentYear();
+    initProfileImages();
     initTypingEffect();
     initCounterAnimation();
     initScrollAnimations();
@@ -14,6 +16,43 @@ document.addEventListener('DOMContentLoaded', () => {
     initBackToTop();
     initFormHandler();
 });
+
+// ===== Dynamic Year =====
+function initCurrentYear() {
+    const year = new Date().getFullYear();
+    document.querySelectorAll('[data-current-year]').forEach(el => {
+        el.textContent = year;
+    });
+}
+
+// ===== Profile Image With Initials Fallback =====
+function initProfileImages() {
+    document.querySelectorAll('[data-profile-container]').forEach(container => {
+        const image = container.querySelector('[data-profile-image]');
+        if (!image) return;
+
+        const showImage = () => {
+            container.classList.remove('is-fallback');
+            image.removeAttribute('aria-hidden');
+        };
+
+        const showFallback = () => {
+            container.classList.add('is-fallback');
+            image.setAttribute('aria-hidden', 'true');
+        };
+
+        image.addEventListener('load', showImage);
+        image.addEventListener('error', showFallback);
+
+        if (image.complete) {
+            if (image.naturalWidth > 0) {
+                showImage();
+            } else {
+                showFallback();
+            }
+        }
+    });
+}
 
 // ===== Loading Screen =====
 function initLoader() {
@@ -193,12 +232,13 @@ function initTypingEffect() {
     if (!typedText) return;
     
     const words = [
+        'Multi-Agent Automation',
+        'RAG Workflows',
         'AI Solutions',
-        'ML Pipelines',
-        'Data Insights',
-        'Web Applications',
-        'Smart Systems'
+        'Data Platforms',
+        'BI Dashboards'
     ];
+    window.typedWords = window.typedWords || words;
     
     let wordIndex = 0;
     let charIndex = 0;
@@ -206,7 +246,8 @@ function initTypingEffect() {
     let typeSpeed = 100;
     
     function type() {
-        const currentWord = words[wordIndex];
+        const activeWords = window.typedWords || words;
+        const currentWord = activeWords[wordIndex % activeWords.length];
         
         if (isDeleting) {
             typedText.textContent = currentWord.substring(0, charIndex - 1);
@@ -223,7 +264,7 @@ function initTypingEffect() {
             isDeleting = true;
         } else if (isDeleting && charIndex === 0) {
             isDeleting = false;
-            wordIndex = (wordIndex + 1) % words.length;
+            wordIndex = (wordIndex + 1) % (window.typedWords || words).length;
             typeSpeed = 500; // Pause before new word
         }
         
@@ -242,6 +283,7 @@ function initCounterAnimation() {
     function animateCounters() {
         counters.forEach(counter => {
             const target = parseInt(counter.getAttribute('data-count'));
+            const suffix = counter.getAttribute('data-suffix') || '';
             const duration = 2000;
             const step = target / (duration / 16);
             let current = 0;
@@ -249,10 +291,10 @@ function initCounterAnimation() {
             const updateCounter = () => {
                 current += step;
                 if (current < target) {
-                    counter.textContent = Math.floor(current);
+                    counter.textContent = Math.floor(current) + suffix;
                     requestAnimationFrame(updateCounter);
                 } else {
-                    counter.textContent = target;
+                    counter.textContent = target + suffix;
                 }
             };
             
@@ -474,7 +516,7 @@ console.log(`
 %cThanks for checking out my portfolio source code.
 Want to connect? Let's build something amazing together!
 
-📧 amine.abaghraz23@ump.ac.ma
+📧 amine1abrghaze@gmail.com
 🔗 github.com/abrghaze
 
 `,

@@ -187,6 +187,21 @@ input, textarea {
     animation: pulse 1.5s ease infinite;
 }
 
+.loader-avatar {
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    background: var(--accent-gradient);
+    box-shadow: var(--shadow-lg);
+}
+
+.loader-avatar .profile-fallback {
+    font-size: 1.5rem;
+    -webkit-text-fill-color: white;
+}
+
 .loader-bar {
     width: 200px;
     height: 4px;
@@ -245,8 +260,61 @@ input, textarea {
 .nav-logo {
     display: flex;
     align-items: center;
+    gap: 10px;
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+.logo-mark {
+    overflow: hidden;
+    width: 38px;
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #2563eb 0%, #14b8a6 55%, #22c55e 100%);
+    color: white;
+    font-size: 0.82rem;
+    font-weight: 900;
+    letter-spacing: 0;
+    box-shadow: 0 8px 22px rgba(20, 184, 166, 0.28);
+}
+
+.profile-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-fallback {
+    display: none;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 0;
+}
+
+.profile-media.is-fallback .profile-image {
+    display: none;
+}
+
+.profile-media.is-fallback .profile-fallback {
+    display: flex;
+}
+
+.logo-mark .profile-fallback {
+    font-size: 0.82rem;
+}
+
+.logo-word {
+    display: inline-flex;
+    align-items: baseline;
 }
 
 .logo-text {
@@ -968,16 +1036,21 @@ input, textarea {
     width: 100%;
     height: 100%;
     background: var(--accent-gradient);
+    overflow: hidden;
     border-radius: var(--radius-lg);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.initials {
+.image-placeholder .profile-fallback {
     font-size: 5rem;
     font-weight: 800;
     color: white;
+}
+
+.image-placeholder .profile-image {
+    border-radius: inherit;
 }
 
 .image-border {
@@ -1392,6 +1465,15 @@ input, textarea {
 
 .timeline-item.education .timeline-marker {
     background: linear-gradient(135deg, #22d3ee 0%, #6366f1 100%);
+}
+
+.timeline-item.featured .timeline-content {
+    border-color: rgba(20, 184, 166, 0.35);
+    box-shadow: 0 18px 50px rgba(20, 184, 166, 0.12);
+}
+
+.timeline-item.featured .timeline-marker {
+    background: linear-gradient(135deg, #2563eb 0%, #14b8a6 55%, #22c55e 100%);
 }
 
 /* ===== Projects Section ===== */
@@ -1865,6 +1947,7 @@ input, textarea {
 .footer-logo {
     display: flex;
     align-items: center;
+    gap: 10px;
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -2069,9 +2152,32 @@ input, textarea {
     .section {
         padding: 60px 0;
     }
-    
+
     .section-header {
         margin-bottom: 40px;
+    }
+
+    .section-title {
+        font-size: 1.85rem;
+        line-height: 1.25;
+        overflow-wrap: anywhere;
+    }
+
+    .about-content,
+    .about-text,
+    .about-info {
+        min-width: 0;
+    }
+
+    .image-wrapper {
+        width: min(300px, calc(100vw - 72px));
+        height: auto;
+        aspect-ratio: 6 / 7;
+    }
+
+    .info-item span,
+    .info-details a {
+        overflow-wrap: anywhere;
     }
     
     .hero-stats {

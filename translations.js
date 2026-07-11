@@ -15,35 +15,36 @@ const translations = {
         hero_badge: "Available for opportunities",
         hero_greeting: "Hello, I'm",
         hero_build: "I build",
-        hero_description: `5th-year Engineering Student at ENSAO specializing in <strong>AI</strong>, 
-            <strong>Data Science</strong>, and <strong>Business Intelligence</strong>. 
-            Passionate about transforming data into actionable insights and building 
-            intelligent systems that solve real-world problems.`,
+        hero_description: `AI Engineer trained at <strong>ENSAO</strong>, specializing in <strong>AI</strong>,
+            <strong>Information Systems Governance</strong>, and <strong>Business Intelligence</strong>.
+            I build multi-agent automation, RAG workflows, and data-driven systems that turn complex
+            business processes into reliable digital solutions.`,
         hero_projects: "Projects",
         hero_certifications: "Certifications",
-        hero_internships: "Internships",
+        hero_experience: "Years of Experience",
         hero_view_work: "View My Work",
         hero_get_in_touch: "Get In Touch",
-        
+
         // Typed words
-        typed_words: ["AI Solutions", "ML Pipelines", "Data Insights", "Web Applications", "Smart Systems"],
-        
+        typed_words: ["Multi-Agent Automation", "RAG Workflows", "AI Solutions", "Data Platforms", "BI Dashboards"],
+
         // About Section
         about_tag: "About Me",
         about_title: "Passionate about turning data into impact",
-        about_years: "Years Learning",
-        about_intro: `I'm a 5th-year engineering student at <strong>ENSAO</strong> (École Nationale des Sciences Appliquées d'Oujda), 
-            pursuing a degree in <strong>Management and Governance of Information Systems</strong>.`,
-        about_p1: `My journey combines a strategic vision of information systems with a deep passion for 
-            <strong>Artificial Intelligence</strong> and <strong>Data Science</strong>. I specialize in developing 
-            intelligent solutions that bridge the gap between complex data and actionable business insights.`,
-        about_p2: `From building predictive models with deep learning to designing interactive BI dashboards, 
-            I thrive on solving complex problems and continuously learning new technologies. My goal is to 
-            add real value through rigor, innovation, and a commitment to excellence.`,
-        about_location: "Al Quds, Oujda, Morocco",
+        about_years: "Years of Study",
+        about_intro: `I'm an <strong>AI Engineer</strong> with a <strong>Bac+5 State Engineering Degree</strong> from
+            <strong>ENSAO</strong> (École Nationale des Sciences Appliquées d'Oujda), with a specialization in
+            <strong>AI and Governance of Information Systems</strong>.`,
+        about_p1: `My work combines a governance-minded view of information systems with hands-on experience in
+            <strong>multi-agent automation</strong>, <strong>RAG</strong>, <strong>Data Science</strong>, and <strong>Business Intelligence</strong>.
+            I focus on transforming complex business needs into useful, maintainable digital solutions.`,
+        about_p2: `From automating client integration deliverables to building predictive models and BI dashboards,
+            I like projects where technical rigor meets operational value. My goal is to deliver reliable systems
+            that are clear for teams, useful for clients, and ready to evolve.`,
+        about_location: "Casablanca, Morocco",
         about_languages: "Arabic (Native), French (Advanced), English (Professional)",
         about_download_cv: "Download CV",
-        
+
         // Skills Section
         skills_tag: "Skills & Expertise",
         skills_title: "Technologies I work with",
@@ -51,31 +52,42 @@ const translations = {
         skills_bi: "BI & Big Data",
         skills_web: "Web Development",
         skills_erp: "ERP & CRM",
-        
+
         // Experience Section
         exp_tag: "Experience",
         exp_title: "Professional Journey",
         exp_current: "Current",
-        exp_te_title: "Data Engineer & Data Scientist Intern",
+        exp_pfe_date: "February 2026 - August 2026",
+        exp_pfe_title: "AI Engineer (Final-Year Internship)",
+        exp_pfe_company: "Tessi Oujda",
+        exp_pfe_project: "Multi-agent orchestrator for client integration automation",
+        exp_pfe_task1: "Designed a LangGraph-based multi-agent orchestrator to automate repetitive client integration tasks for Digital Invoice workflows",
+        exp_pfe_task2: "Built a RAG and document chunking approach to analyze DSF documents and provide agents with the right functional context",
+        exp_pfe_task3: "Automated professional deliverables: test workbooks, Excel transfer matrices, and XML/JRXML coherence reports",
+        exp_pfe_task4: "Developed Recette, Transfer, and JasperReports modules with Python, FastAPI, React, TypeScript, and Ollama",
+        exp_te_date: "July 2025 - September 2025",
+        exp_te_title: "Data Engineer & Data Scientist",
         exp_te_company: "TE Connectivity",
         exp_te_project: "PFA: Development of an Intelligent Competency Analysis System",
         exp_te_task1: "Implemented automated ETL pipelines for HR data collection and cleaning using Python, Pandas, and Airflow",
         exp_te_task2: "Designed and built a Data Warehouse with PostgreSQL for centralized data storage",
         exp_te_task3: "Developed profile recommendation algorithms using Scikit-learn for intelligent competency matching",
-        exp_adn_title: "Data Analyst & BI Intern",
+        exp_adn_date: "July 2024 - August 2024",
+        exp_adn_title: "Data Analyst & BI",
         exp_adn_company: "Agence de Développement du Nord",
         exp_adn_project: "Design of institutional project monitoring dashboards",
         exp_adn_task1: "Led data migration and structured the data warehouse using Talend and Python",
         exp_adn_task2: "Developed interactive KPI dashboards and decision-support reports with Power BI and DAX",
         exp_adn_task3: "Optimized SQL queries to significantly improve dashboard display performance",
-        exp_ensao_title: "Engineering Degree",
+        exp_ensao_date: "2021 - 2026",
+        exp_ensao_title: "State Engineering Degree (Bac+5)",
         exp_ensao_company: "ENSAO - École Nationale des Sciences Appliquées d'Oujda",
-        exp_ensao_project: "Management and Governance of Information Systems",
-        exp_ensao_desc: "Integrated preparatory cycle followed by the engineering cycle. Specialization in Information Systems Management with focus on AI, Data Science, and ERP/CRM systems.",
+        exp_ensao_project: "AI and Governance of Information Systems",
+        exp_ensao_desc: "Integrated preparatory cycle followed by the engineering cycle. Specialization in AI and Information Systems Governance with focus on intelligent automation, Data Science, BI, and ERP/CRM systems.",
+        exp_bac_date: "2021",
         exp_bac_title: "Baccalauréat in Physical Sciences",
         exp_bac_company: "Lycée Ali Ben Berry - Taza",
         exp_bac_project: "Mention: Très Bien (Highest Honors)",
-        
         // Projects Section
         proj_tag: "Portfolio",
         proj_title: "Featured Projects",
@@ -127,7 +139,7 @@ const translations = {
         contact_send: "Send Message",
         
         // Footer
-        footer_desc: "Data Scientist & AI Engineer passionate about building intelligent solutions.",
+        footer_desc: "AI Engineer focused on multi-agent automation, RAG, data science, and information systems governance.",
         footer_links: "Quick Links",
         footer_connect: "Connect",
         footer_rights: "All rights reserved.",
@@ -153,35 +165,36 @@ const translations = {
         hero_badge: "Disponible pour des opportunités",
         hero_greeting: "Bonjour, je suis",
         hero_build: "Je crée",
-        hero_description: `Étudiant ingénieur en 5ème année à l'ENSAO spécialisé en <strong>IA</strong>, 
-            <strong>Data Science</strong> et <strong>Business Intelligence</strong>. 
-            Passionné par la transformation des données en insights actionnables et la construction 
-            de systèmes intelligents qui résolvent des problèmes réels.`,
+        hero_description: `Ingénieur IA formé à l'ENSAO, spécialisé en <strong>IA</strong>,
+            <strong>gouvernance des systèmes d'information</strong> et <strong>Business Intelligence</strong>.
+            Je conçois des automatisations multi-agents, des workflows RAG et des systèmes data fiables
+            pour transformer les processus métier complexes en solutions digitales utiles.`,
         hero_projects: "Projets",
         hero_certifications: "Certifications",
-        hero_internships: "Stages",
+        hero_experience: "Année d'expérience",
         hero_view_work: "Voir Mes Projets",
         hero_get_in_touch: "Me Contacter",
-        
+
         // Typed words
-        typed_words: ["Solutions IA", "Pipelines ML", "Analyses de Données", "Applications Web", "Systèmes Intelligents"],
-        
+        typed_words: ["Automatisations Multi-Agents", "Workflows RAG", "Solutions IA", "Plateformes Data", "Tableaux de Bord BI"],
+
         // About Section
         about_tag: "À Propos",
         about_title: "Passionné par la transformation des données en impact",
-        about_years: "Années d'Apprentissage",
-        about_intro: `Je suis étudiant ingénieur en 5ème année à l'<strong>ENSAO</strong> (École Nationale des Sciences Appliquées d'Oujda), 
-            en <strong>Management et Gouvernance des Systèmes d'Information</strong>.`,
-        about_p1: `Mon parcours combine une vision stratégique des systèmes d'information avec une passion profonde pour 
-            l'<strong>Intelligence Artificielle</strong> et la <strong>Data Science</strong>. Je me spécialise dans le développement 
-            de solutions intelligentes qui comblent le fossé entre les données complexes et les insights business actionnables.`,
-        about_p2: `De la construction de modèles prédictifs avec le deep learning à la conception de tableaux de bord BI interactifs, 
-            je m'épanouis dans la résolution de problèmes complexes et l'apprentissage continu de nouvelles technologies. Mon objectif est 
-            d'apporter une valeur réelle grâce à la rigueur, l'innovation et l'engagement envers l'excellence.`,
-        about_location: "Al Quds, Oujda, Maroc",
+        about_years: "Années d'études",
+        about_intro: `Je suis <strong>ingénieur IA</strong>, titulaire d'un <strong>diplôme d'ingénieur d'État (Bac+5)</strong> de
+            l'<strong>ENSAO</strong> (École Nationale des Sciences Appliquées d'Oujda), avec une spécialisation en
+            <strong>IA et gouvernance des systèmes d'information</strong>.`,
+        about_p1: `Mon parcours combine une vision de la gouvernance des systèmes d'information avec une pratique concrète de
+            l'<strong>automatisation multi-agents</strong>, du <strong>RAG</strong>, de la <strong>Data Science</strong> et de la <strong>BI</strong>.
+            Je transforme des besoins métier complexes en solutions digitales utiles et maintenables.`,
+        about_p2: `De l'automatisation des livrables d'intégration client aux modèles prédictifs et tableaux de bord BI,
+            j'aime les projets où la rigueur technique sert une valeur opérationnelle claire. Mon objectif est de livrer des systèmes fiables,
+            compréhensibles pour les équipes et utiles pour les clients.`,
+        about_location: "Casablanca, Maroc",
         about_languages: "Arabe (Natif), Français (Avancé), Anglais (Professionnel)",
         about_download_cv: "Télécharger CV",
-        
+
         // Skills Section
         skills_tag: "Compétences & Expertise",
         skills_title: "Technologies avec lesquelles je travaille",
@@ -189,31 +202,42 @@ const translations = {
         skills_bi: "BI & Big Data",
         skills_web: "Développement Web",
         skills_erp: "ERP & CRM",
-        
+
         // Experience Section
         exp_tag: "Expérience",
         exp_title: "Parcours Professionnel",
         exp_current: "Actuel",
-        exp_te_title: "Stagiaire Data Engineer & Data Scientist",
+        exp_pfe_date: "Février 2026 - Août 2026",
+        exp_pfe_title: "Ingénieur IA (Stage PFE)",
+        exp_pfe_company: "Tessi Oujda",
+        exp_pfe_project: "Orchestrateur multi-agents d'automatisation de l'intégration client",
+        exp_pfe_task1: "Conception d'un orchestrateur multi-agents avec LangGraph pour automatiser les tâches répétitives du processus d'intégration client de Digital Invoice",
+        exp_pfe_task2: "Mise en place d'une approche RAG et de découpage documentaire pour analyser les DSF et fournir aux agents le contexte fonctionnel utile",
+        exp_pfe_task3: "Automatisation des livrables métier : cahiers de recette, matrices Excel de transfert et rapports de cohérence XML/JRXML",
+        exp_pfe_task4: "Développement des modules Recette, Transfer et JasperReports avec Python, FastAPI, React, TypeScript et Ollama",
+        exp_te_date: "Juillet 2025 - Septembre 2025",
+        exp_te_title: "Data Engineer & Data Scientist",
         exp_te_company: "TE Connectivity",
-        exp_te_project: "PFA : Développement d'un Système d'Analyse Intelligente des Compétences",
+        exp_te_project: "PFA : Développement d'un système d'analyse intelligente des compétences",
         exp_te_task1: "Mise en place de pipelines ETL automatisés pour la collecte et le nettoyage des données RH avec Python, Pandas et Airflow",
         exp_te_task2: "Conception et construction d'un Data Warehouse avec PostgreSQL pour le stockage centralisé des données",
         exp_te_task3: "Développement d'algorithmes de recommandation de profils avec Scikit-learn pour le matching intelligent des compétences",
-        exp_adn_title: "Stagiaire Data Analyst & BI",
+        exp_adn_date: "Juillet 2024 - Août 2024",
+        exp_adn_title: "Data Analyst & BI",
         exp_adn_company: "Agence de Développement du Nord",
         exp_adn_project: "Conception de tableaux de bord pour le suivi des projets institutionnels",
         exp_adn_task1: "Direction de la migration des données et structuration de l'entrepôt de données avec Talend et Python",
         exp_adn_task2: "Développement de tableaux de bord KPI interactifs et rapports d'aide à la décision avec Power BI et DAX",
         exp_adn_task3: "Optimisation des requêtes SQL pour améliorer significativement les performances d'affichage",
-        exp_ensao_title: "Diplôme d'Ingénieur",
+        exp_ensao_date: "2021 - 2026",
+        exp_ensao_title: "Diplôme d'ingénieur d'État (Bac+5)",
         exp_ensao_company: "ENSAO - École Nationale des Sciences Appliquées d'Oujda",
-        exp_ensao_project: "Management et Gouvernance des Systèmes d'Information",
-        exp_ensao_desc: "Cycle préparatoire intégré suivi du cycle ingénieur. Spécialisation en Management des Systèmes d'Information avec focus sur l'IA, la Data Science et les systèmes ERP/CRM.",
+        exp_ensao_project: "IA et gouvernance des systèmes d'information",
+        exp_ensao_desc: "Cycle préparatoire intégré suivi du cycle ingénieur. Spécialisation en IA et gouvernance des systèmes d'information avec un focus sur l'automatisation intelligente, la Data Science, la BI et les systèmes ERP/CRM.",
+        exp_bac_date: "2021",
         exp_bac_title: "Baccalauréat en Sciences Physiques",
         exp_bac_company: "Lycée Ali Ben Berry - Taza",
         exp_bac_project: "Mention : Très Bien",
-        
         // Projects Section
         proj_tag: "Portfolio",
         proj_title: "Projets Phares",
@@ -265,7 +289,7 @@ const translations = {
         contact_send: "Envoyer le Message",
         
         // Footer
-        footer_desc: "Data Scientist & Ingénieur IA passionné par la construction de solutions intelligentes.",
+        footer_desc: "Ingénieur IA orienté automatisation multi-agents, RAG, data science et gouvernance des systèmes d'information.",
         footer_links: "Liens Rapides",
         footer_connect: "Connexion",
         footer_rights: "Tous droits réservés.",
@@ -291,35 +315,36 @@ const translations = {
         hero_badge: "Disponible para oportunidades",
         hero_greeting: "Hola, soy",
         hero_build: "Construyo",
-        hero_description: `Estudiante de Ingeniería de 5º año en ENSAO especializado en <strong>IA</strong>, 
-            <strong>Ciencia de Datos</strong> e <strong>Inteligencia de Negocios</strong>. 
-            Apasionado por transformar datos en insights accionables y construir 
-            sistemas inteligentes que resuelven problemas reales.`,
+        hero_description: `Ingeniero de IA formado en <strong>ENSAO</strong>, especializado en <strong>IA</strong>,
+            <strong>gobernanza de sistemas de información</strong> e <strong>inteligencia de negocio</strong>.
+            Construyo automatizaciones multiagente, workflows RAG y sistemas basados en datos que convierten
+            procesos empresariales complejos en soluciones digitales fiables.`,
         hero_projects: "Proyectos",
         hero_certifications: "Certificaciones",
-        hero_internships: "Prácticas",
+        hero_experience: "Año de experiencia",
         hero_view_work: "Ver Mi Trabajo",
         hero_get_in_touch: "Contáctame",
-        
+
         // Typed words
-        typed_words: ["Soluciones IA", "Pipelines ML", "Análisis de Datos", "Aplicaciones Web", "Sistemas Inteligentes"],
-        
+        typed_words: ["Automatización Multiagente", "Workflows RAG", "Soluciones IA", "Plataformas de Datos", "Dashboards BI"],
+
         // About Section
         about_tag: "Sobre Mí",
         about_title: "Apasionado por convertir datos en impacto",
-        about_years: "Años Aprendiendo",
-        about_intro: `Soy estudiante de ingeniería de 5º año en <strong>ENSAO</strong> (Escuela Nacional de Ciencias Aplicadas de Oujda), 
-            cursando <strong>Gestión y Gobernanza de Sistemas de Información</strong>.`,
-        about_p1: `Mi trayectoria combina una visión estratégica de los sistemas de información con una profunda pasión por 
-            la <strong>Inteligencia Artificial</strong> y la <strong>Ciencia de Datos</strong>. Me especializo en desarrollar 
-            soluciones inteligentes que cierran la brecha entre datos complejos e insights de negocio accionables.`,
-        about_p2: `Desde construir modelos predictivos con deep learning hasta diseñar dashboards BI interactivos, 
-            me apasiona resolver problemas complejos y aprender continuamente nuevas tecnologías. Mi objetivo es 
-            aportar valor real a través del rigor, la innovación y el compromiso con la excelencia.`,
-        about_location: "Al Quds, Oujda, Marruecos",
+        about_years: "Años de estudios",
+        about_intro: `Soy <strong>ingeniero de IA</strong>, titulado con un <strong>Diploma Estatal de Ingeniería (Bac+5)</strong> por
+            <strong>ENSAO</strong> (Escuela Nacional de Ciencias Aplicadas de Oujda), con especialización en
+            <strong>IA y gobernanza de sistemas de información</strong>.`,
+        about_p1: `Mi trayectoria combina una visión de gobernanza de sistemas de información con experiencia práctica en
+            <strong>automatización multiagente</strong>, <strong>RAG</strong>, <strong>ciencia de datos</strong> e <strong>inteligencia de negocio</strong>.
+            Transformo necesidades empresariales complejas en soluciones digitales útiles y mantenibles.`,
+        about_p2: `Desde automatizar entregables de integración de clientes hasta construir modelos predictivos y dashboards BI,
+            me interesan los proyectos donde el rigor técnico genera un valor operativo claro. Mi objetivo es entregar sistemas fiables,
+            claros para los equipos y útiles para los clientes.`,
+        about_location: "Casablanca, Marruecos",
         about_languages: "Árabe (Nativo), Francés (Avanzado), Inglés (Profesional)",
         about_download_cv: "Descargar CV",
-        
+
         // Skills Section
         skills_tag: "Habilidades & Expertise",
         skills_title: "Tecnologías con las que trabajo",
@@ -327,31 +352,42 @@ const translations = {
         skills_bi: "BI & Big Data",
         skills_web: "Desarrollo Web",
         skills_erp: "ERP & CRM",
-        
+
         // Experience Section
         exp_tag: "Experiencia",
         exp_title: "Trayectoria Profesional",
         exp_current: "Actual",
-        exp_te_title: "Becario Data Engineer & Data Scientist",
+        exp_pfe_date: "Febrero 2026 - Agosto 2026",
+        exp_pfe_title: "Ingeniero de IA (Prácticas de fin de carrera)",
+        exp_pfe_company: "Tessi Oujda",
+        exp_pfe_project: "Orquestador multiagente para automatizar la integración de clientes",
+        exp_pfe_task1: "Diseño de un orquestador multiagente con LangGraph para automatizar tareas repetitivas del proceso de integración de clientes de Digital Invoice",
+        exp_pfe_task2: "Implementación de un enfoque RAG y segmentación documental para analizar los DSF y aportar a los agentes el contexto funcional útil",
+        exp_pfe_task3: "Automatización de entregables profesionales: cuadernos de prueba, matrices Excel de transferencia e informes de coherencia XML/JRXML",
+        exp_pfe_task4: "Desarrollo de módulos Recette, Transfer y JasperReports con Python, FastAPI, React, TypeScript y Ollama",
+        exp_te_date: "Julio 2025 - Septiembre 2025",
+        exp_te_title: "Data Engineer & Data Scientist",
         exp_te_company: "TE Connectivity",
-        exp_te_project: "PFA: Desarrollo de un Sistema Inteligente de Análisis de Competencias",
-        exp_te_task1: "Implementación de pipelines ETL automatizados para recolección y limpieza de datos RRHH con Python, Pandas y Airflow",
-        exp_te_task2: "Diseño y construcción de un Data Warehouse con PostgreSQL para almacenamiento centralizado de datos",
-        exp_te_task3: "Desarrollo de algoritmos de recomendación de perfiles con Scikit-learn para matching inteligente de competencias",
-        exp_adn_title: "Becario Data Analyst & BI",
+        exp_te_project: "PFA: Desarrollo de un sistema inteligente de análisis de competencias",
+        exp_te_task1: "Implementación de pipelines ETL automatizados para la recopilación y limpieza de datos de RR. HH. con Python, Pandas y Airflow",
+        exp_te_task2: "Diseño y construcción de un Data Warehouse con PostgreSQL para el almacenamiento centralizado de datos",
+        exp_te_task3: "Desarrollo de algoritmos de recomendación de perfiles con Scikit-learn para el matching inteligente de competencias",
+        exp_adn_date: "Julio 2024 - Agosto 2024",
+        exp_adn_title: "Data Analyst & BI",
         exp_adn_company: "Agencia de Desarrollo del Norte",
-        exp_adn_project: "Diseño de dashboards para seguimiento de proyectos institucionales",
-        exp_adn_task1: "Liderazgo de migración de datos y estructuración del data warehouse con Talend y Python",
-        exp_adn_task2: "Desarrollo de dashboards KPI interactivos e informes de apoyo a decisiones con Power BI y DAX",
+        exp_adn_project: "Diseño de dashboards para el seguimiento de proyectos institucionales",
+        exp_adn_task1: "Liderazgo de la migración de datos y estructuración del data warehouse con Talend y Python",
+        exp_adn_task2: "Desarrollo de dashboards KPI interactivos e informes de apoyo a la toma de decisiones con Power BI y DAX",
         exp_adn_task3: "Optimización de consultas SQL para mejorar significativamente el rendimiento de visualización",
-        exp_ensao_title: "Título de Ingeniería",
+        exp_ensao_date: "2021 - 2026",
+        exp_ensao_title: "Diploma Estatal de Ingeniería (Bac+5)",
         exp_ensao_company: "ENSAO - Escuela Nacional de Ciencias Aplicadas de Oujda",
-        exp_ensao_project: "Gestión y Gobernanza de Sistemas de Información",
-        exp_ensao_desc: "Ciclo preparatorio integrado seguido del ciclo de ingeniería. Especialización en Gestión de Sistemas de Información con enfoque en IA, Ciencia de Datos y sistemas ERP/CRM.",
+        exp_ensao_project: "IA y gobernanza de sistemas de información",
+        exp_ensao_desc: "Ciclo preparatorio integrado seguido del ciclo de ingeniería. Especialización en IA y gobernanza de sistemas de información con foco en automatización inteligente, ciencia de datos, BI y sistemas ERP/CRM.",
+        exp_bac_date: "2021",
         exp_bac_title: "Bachillerato en Ciencias Físicas",
         exp_bac_company: "Liceo Ali Ben Berry - Taza",
         exp_bac_project: "Mención: Muy Bien (Máximos Honores)",
-        
         // Projects Section
         proj_tag: "Portfolio",
         proj_title: "Proyectos Destacados",
@@ -403,7 +439,7 @@ const translations = {
         contact_send: "Enviar Mensaje",
         
         // Footer
-        footer_desc: "Data Scientist e Ingeniero IA apasionado por construir soluciones inteligentes.",
+        footer_desc: "Ingeniero de IA orientado a automatización multiagente, RAG, ciencia de datos y gobernanza de sistemas de información.",
         footer_links: "Enlaces Rápidos",
         footer_connect: "Conectar",
         footer_rights: "Todos los derechos reservados.",
@@ -481,14 +517,12 @@ function setLanguage(lang) {
     updateHTML('.hero-description', t.hero_description);
     updateText('.hero-stats .stat:nth-child(1) .stat-label', t.hero_projects);
     updateText('.hero-stats .stat:nth-child(2) .stat-label', t.hero_certifications);
-    updateText('.hero-stats .stat:nth-child(3) .stat-label', t.hero_internships);
+    updateText('.hero-stats .stat:nth-child(3) .stat-label', t.hero_experience);
     updateText('.hero-cta .btn-primary span', t.hero_view_work);
     updateText('.hero-cta .btn-secondary span', t.hero_get_in_touch);
     
     // Update typed words
-    if (window.typedWords) {
-        window.typedWords = t.typed_words;
-    }
+    window.typedWords = t.typed_words;
     
     // Scroll indicator
     updateText('.scroll-indicator span', t.scroll);
@@ -519,33 +553,47 @@ function setLanguage(lang) {
     
     // Timeline items
     const timelineItems = document.querySelectorAll('.timeline-item');
-    if (timelineItems.length >= 4) {
+    if (timelineItems.length >= 5) {
+        // Tessi PFE
+        updateTextAfterIcon('.timeline-item:nth-child(1) .timeline-date', t.exp_pfe_date);
+        updateText('.timeline-item:nth-child(1) .timeline-title', t.exp_pfe_title);
+        updateTextAfterIcon('.timeline-item:nth-child(1) .timeline-company', t.exp_pfe_company);
+        updateText('.timeline-item:nth-child(1) .timeline-project', t.exp_pfe_project);
+        updateTaskText('.timeline-item:nth-child(1) .timeline-tasks li:nth-child(1)', t.exp_pfe_task1);
+        updateTaskText('.timeline-item:nth-child(1) .timeline-tasks li:nth-child(2)', t.exp_pfe_task2);
+        updateTaskText('.timeline-item:nth-child(1) .timeline-tasks li:nth-child(3)', t.exp_pfe_task3);
+        updateTaskText('.timeline-item:nth-child(1) .timeline-tasks li:nth-child(4)', t.exp_pfe_task4);
+
         // TE Connectivity
-        updateText('.timeline-item:nth-child(1) .timeline-title', t.exp_te_title);
-        updateTextAfterIcon('.timeline-item:nth-child(1) .timeline-company', t.exp_te_company);
-        updateText('.timeline-item:nth-child(1) .timeline-project', t.exp_te_project);
-        updateTaskText('.timeline-item:nth-child(1) .timeline-tasks li:nth-child(1)', t.exp_te_task1);
-        updateTaskText('.timeline-item:nth-child(1) .timeline-tasks li:nth-child(2)', t.exp_te_task2);
-        updateTaskText('.timeline-item:nth-child(1) .timeline-tasks li:nth-child(3)', t.exp_te_task3);
+        updateTextAfterIcon('.timeline-item:nth-child(2) .timeline-date', t.exp_te_date);
+        updateText('.timeline-item:nth-child(2) .timeline-title', t.exp_te_title);
+        updateTextAfterIcon('.timeline-item:nth-child(2) .timeline-company', t.exp_te_company);
+        updateText('.timeline-item:nth-child(2) .timeline-project', t.exp_te_project);
+        updateTaskText('.timeline-item:nth-child(2) .timeline-tasks li:nth-child(1)', t.exp_te_task1);
+        updateTaskText('.timeline-item:nth-child(2) .timeline-tasks li:nth-child(2)', t.exp_te_task2);
+        updateTaskText('.timeline-item:nth-child(2) .timeline-tasks li:nth-child(3)', t.exp_te_task3);
         
         // ADN
-        updateText('.timeline-item:nth-child(2) .timeline-title', t.exp_adn_title);
-        updateTextAfterIcon('.timeline-item:nth-child(2) .timeline-company', t.exp_adn_company);
-        updateText('.timeline-item:nth-child(2) .timeline-project', t.exp_adn_project);
-        updateTaskText('.timeline-item:nth-child(2) .timeline-tasks li:nth-child(1)', t.exp_adn_task1);
-        updateTaskText('.timeline-item:nth-child(2) .timeline-tasks li:nth-child(2)', t.exp_adn_task2);
-        updateTaskText('.timeline-item:nth-child(2) .timeline-tasks li:nth-child(3)', t.exp_adn_task3);
+        updateTextAfterIcon('.timeline-item:nth-child(3) .timeline-date', t.exp_adn_date);
+        updateText('.timeline-item:nth-child(3) .timeline-title', t.exp_adn_title);
+        updateTextAfterIcon('.timeline-item:nth-child(3) .timeline-company', t.exp_adn_company);
+        updateText('.timeline-item:nth-child(3) .timeline-project', t.exp_adn_project);
+        updateTaskText('.timeline-item:nth-child(3) .timeline-tasks li:nth-child(1)', t.exp_adn_task1);
+        updateTaskText('.timeline-item:nth-child(3) .timeline-tasks li:nth-child(2)', t.exp_adn_task2);
+        updateTaskText('.timeline-item:nth-child(3) .timeline-tasks li:nth-child(3)', t.exp_adn_task3);
         
         // ENSAO
-        updateText('.timeline-item:nth-child(3) .timeline-title', t.exp_ensao_title);
-        updateTextAfterIcon('.timeline-item:nth-child(3) .timeline-company', t.exp_ensao_company);
-        updateText('.timeline-item:nth-child(3) .timeline-project', t.exp_ensao_project);
-        updateText('.timeline-item:nth-child(3) .timeline-description', t.exp_ensao_desc);
+        updateTextAfterIcon('.timeline-item:nth-child(4) .timeline-date', t.exp_ensao_date);
+        updateText('.timeline-item:nth-child(4) .timeline-title', t.exp_ensao_title);
+        updateTextAfterIcon('.timeline-item:nth-child(4) .timeline-company', t.exp_ensao_company);
+        updateText('.timeline-item:nth-child(4) .timeline-project', t.exp_ensao_project);
+        updateText('.timeline-item:nth-child(4) .timeline-description', t.exp_ensao_desc);
         
         // Bac
-        updateText('.timeline-item:nth-child(4) .timeline-title', t.exp_bac_title);
-        updateTextAfterIcon('.timeline-item:nth-child(4) .timeline-company', t.exp_bac_company);
-        updateText('.timeline-item:nth-child(4) .timeline-project', t.exp_bac_project);
+        updateTextAfterIcon('.timeline-item:nth-child(5) .timeline-date', t.exp_bac_date);
+        updateText('.timeline-item:nth-child(5) .timeline-title', t.exp_bac_title);
+        updateTextAfterIcon('.timeline-item:nth-child(5) .timeline-company', t.exp_bac_company);
+        updateText('.timeline-item:nth-child(5) .timeline-project', t.exp_bac_project);
     }
     
     // Projects Section
